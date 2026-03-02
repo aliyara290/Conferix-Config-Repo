@@ -1,17 +1,9 @@
 spring:
-#  profiles: dev
+  profiles:
+    active: dev
   security:
     oauth2:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8080/realms/conferix-system
 
-logging:
-  level:
-    root: INFO
-    org.springframework.security: DEBUG
-    org.springframework.web: INFO
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql: TRACE
-    org.hibernate: INFO
-    com.zaxxer.hikari: INFO

@@ -1,9 +1,6 @@
 spring:
-  profiles:
-    active: dev
   security:
     oauth2:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8080/realms/conferix-system
-

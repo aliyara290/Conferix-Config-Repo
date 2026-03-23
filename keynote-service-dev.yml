@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/conference_db
+    url: jdbc:postgresql://localhost:5432/keynote_db
     username: aliyara29
     password: Yara2001
     driver-class-name: org.postgresql.Driver
